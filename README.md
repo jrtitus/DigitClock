@@ -17,9 +17,9 @@ Usage
 Customization Options
 ---
 
-**mode** (Default: "24HR")
-- "24HR"
+**mode** (Default: "12HR")
 - "12HR"
+- "24HR"
 
 **clockBg** (Default: "#333")
 - All background colors/gradients
