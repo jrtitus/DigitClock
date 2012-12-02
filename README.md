@@ -56,7 +56,7 @@ Example with Defaults Set
 ---
 
 	$('#digit-clock').DigitClock({
-		'mode' : '24HR',
+		'mode' : '12HR',
 		'width' : '445px',
 		'height' : '85px',
 		'left'	: '10px',
