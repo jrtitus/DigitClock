@@ -1,0 +1,66 @@
+﻿/************************************************
+
+Copyright (c) 2012 Jeffrey Titus
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+*************************************************/
+
+body{
+	background-color: #333; /*Go ahead and change this to whatever*/
+}
+
+#digit-clock{
+	position: absolute;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.digit{
+	position: relative;
+	float:left;
+	margin-left: 3px;
+}
+
+.colon{
+	position: relative;
+	vertical-align: top;
+	text-align:center;
+	margin-left: 2px;
+	float:left;
+}
+
+#hTens{
+	left: 0;
+}
+
+#hTens div, 
+#hOnes div, 
+#mTens div, 
+#mOnes div, 
+#sTens div, 
+#sOnes div{
+	position: absolute;
+	background: #DF5;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.zero, .three, .six{
+	margin: 0 1px;
+}
+
+.one, .two, .four, .five{
+	margin: 1px 0;
+}
